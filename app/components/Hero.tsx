@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 export default function Hero() {
   return (
@@ -20,16 +21,45 @@ export default function Hero() {
           </h2>
 
           <p className="mt-6 text-gray-500 leading-8">
-            Passionate about Full Stack Development,
-            Cloud Computing, Networking and Software Engineering.
-          </p>
+  Passionate about Full Stack Development,
+  Cloud Computing, Networking and Software Engineering.
+</p>
 
-          <a
-            href="/projects"
-            className="inline-block mt-8 bg-blue-600 px-6 py-3 rounded-lg hover:bg-blue-700 transition"
-          >
-            View Projects
-          </a>
+<div className="flex items-center gap-6 mt-8 text-3xl">
+  <a
+    href="https://github.com/AdityaPrakash2153"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-gray-300 hover:text-white transition duration-300"
+  >
+    <FaGithub />
+  </a>
+
+  <a
+    href="https://www.linkedin.com/in/adityaprakash0704/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-500 hover:text-blue-400 transition duration-300"
+  >
+    <FaLinkedin />
+  </a>
+
+  <a
+    href="https://www.instagram.com/adityaprakash0704/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-pink-500 hover:text-pink-400 transition duration-300"
+  >
+    <FaInstagram />
+  </a>
+</div>
+
+<a
+  href="/projects"
+  className="inline-block mt-8 bg-blue-600 px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+>
+  View Projects
+</a>
         </div>
 
         {/* Right Side */}
