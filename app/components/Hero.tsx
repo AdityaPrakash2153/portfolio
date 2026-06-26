@@ -33,15 +33,18 @@ export default function Hero() {
         </div>
 
         {/* Right Side */}
-        <div className="flex justify-center">
-          <Image
-            src="/images/profile.jpeg"
-            alt="Profile"
-            width={350}
-            height={350}
-            className="rounded-full border-4 border-blue-500"
-          />
-        </div>
+        {/* Right Side */}
+<div className="flex justify-center">
+  <div className="w-[380px] h-[380px] rounded-full border-4 border-blue-500 overflow-hidden">
+    <Image
+      src="/images/profile.jpeg"
+      alt="Profile"
+      width={380}
+      height={380}
+      className="w-full h-full object-cover object-top"
+    />
+  </div>
+</div>
 
       </div>
     </section>
