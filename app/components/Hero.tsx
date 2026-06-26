@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="bg-black text-white flex items-center justify-center px-8 py-24">
+    <section className="bg-black text-white flex items-center justify-center px-8 py-12">
       <div className="max-w-7xl w-full grid md:grid-cols-2 gap-12 items-center">
 
         {/* Left Side */}
         <div>
-          <p className="text-red-500 text-3xl font-bold">
-  TEST HERO
+          <p className="text-blue-500 text-lg">
+  Hello, I'm
 </p>
 
           <h1 className="text-6xl font-bold mt-2">
