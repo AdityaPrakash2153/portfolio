@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen bg-black text-white flex items-center justify-center px-8">
+    <section className="bg-black text-white flex items-center justify-center px-8 py-24">
       <div className="max-w-7xl w-full grid md:grid-cols-2 gap-12 items-center">
 
         {/* Left Side */}
@@ -22,9 +22,12 @@ export default function Hero() {
             Cloud Computing, Networking and Software Engineering.
           </p>
 
-          <button className="mt-8 bg-blue-600 px-6 py-3 rounded-lg hover:bg-blue-700">
+          <a
+            href="#projects"
+            className="inline-block mt-8 bg-blue-600 px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+          >
             View Projects
-          </button>
+          </a>
         </div>
 
         {/* Right Side */}
