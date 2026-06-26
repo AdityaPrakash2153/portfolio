@@ -25,11 +25,11 @@ export default function Hero() {
           </p>
 
           <a
-            href="#projects"
-            className="inline-block mt-8 bg-blue-600 px-6 py-3 rounded-lg hover:bg-blue-700 transition"
-          >
-            View Projects
-          </a>
+  href="/projects"
+  className="inline-block mt-8 bg-blue-600 px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+>
+  View Projects
+</a>
         </div>
 
         {/* Right Side */}
