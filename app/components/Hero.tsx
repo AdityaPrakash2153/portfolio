@@ -7,7 +7,9 @@ export default function Hero() {
 
         {/* Left Side */}
         <div>
-          <p className="text-blue-500 text-lg">Hello, I'm</p>
+          <p className="text-red-500 text-3xl font-bold">
+  TEST HERO
+</p>
 
           <h1 className="text-6xl font-bold mt-2">
             Aditya Prakash
